@@ -1,0 +1,18 @@
+
+#code
+{
+    color:rgb(5, 6, 6);
+    font-style:italic;
+    border:2px solid;
+    width:99%;
+    padding:0px 12px 0px 10px;/*top,right, bottom, left*/
+}
+.art1
+{
+    color:blue;
+    border:3px solid;
+}
+.art2
+{
+    color:blueviolet;
+}
