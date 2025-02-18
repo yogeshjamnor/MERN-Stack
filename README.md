@@ -1,1 +1,1 @@
-![My Image]("\Day 1\assignment output.jpg")
+![My Image](\Day 1\assignment output.jpg)
