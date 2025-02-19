@@ -1,1 +1,1 @@
-![Output Image](Day2/output.jpg)
+![Output Image](./Day2/output.jpg)
