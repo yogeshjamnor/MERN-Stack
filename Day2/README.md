@@ -1,1 +1,1 @@
-![assignment Output](Day2/output.jpg)
+![Output](Day2/output.jpg)
