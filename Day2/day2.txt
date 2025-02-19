@@ -1,0 +1,10 @@
+block-div(in box )
+inline span(in line )
+block element:occupy entire width for viewport(device width)
+every new block element start on new line
+
+inline elements they occupy space as per thier content
+every new inline element fit beside the new element if space available
+a tag for email
+
+task: shivaji maharaj A tags, imges, marquee tag
