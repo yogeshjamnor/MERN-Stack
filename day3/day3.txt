@@ -1,0 +1,23 @@
+adding video audio and pdfs
+use iframes 
+in src peste the links of all 3
+
+
+list
+order lists
+ol-li
+unordered
+ul-li
+Discriptive list
+dt-dd
+
+table
+thead: for heading with tr-th-/tr tag only
+th: table heading
+tbody: for body of table
+tr: table row
+td: table data
+row to the column devide ( → ↓)
+
+Task:
+iframe: shivaji maharaj yesterdays
