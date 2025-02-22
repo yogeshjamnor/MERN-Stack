@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+</head>
+<body>
+    <table>
+      <form action="#" method="get">
+        <tr><h1>Tour Booking </h1></tr>
+        <tr>
+            <td><a href="index.html"><h2>Home page</h2></a></td>
+        </tr>
+        <tr>
+            <td><label for="name">Enter Name</label></td>
+            <td><input type="text" placeholder="Enter name" name="name" required></td>        
+        </tr>
+        <tr>
+            <td><label for="phone">Enter Phone No.</label></td>
+            <td><input type="number" placeholder="Enter Mobile no." name="phone"required></td>        
+        </tr>
+        <tr>
+            <td><label for="email">Enter Email</label></td>
+            <td><input type="email" placeholder="Enter name" name="email"></td>        
+        </tr>
+        <tr>
+            <td><label for="location">Tour Location</label></td>
+            <td><select name="location">
+                <option name="Mahabaleshwar" value="mahabaleshwar">Mahabaleshwar</option>
+                <option name="Trimbkeshwar" value="trimbkeshwar">Trimbkeshwarwar</option>
+                <option name="Lonavala" value="lonavala">Lonavala</option>
+                <option name="Elephanta" value="elephanta">Elephanta</option>
+                <option name="Matheran" value="matheran">Matheran</option>
+            </select>
+            </td>        
+        </tr>
+        <tr>
+            <td><label for="people">No. of Peoples</label></td>
+            <td><input type="number"min="1" max="10" name="people" value="1"></td>        
+        </tr>
+        <tr>
+            <td><label for="mode">Payment mode</label></td>
+            <td><input type="radio"name="mode" value="COD">Cash On Delevery</td>   
+            <td><input type="radio" name="mode" value="Online">Online</td>     
+        </tr>
+
+        <tr><td><input type="submit" value="submit"></td>
+        <td><input type="reset"value="reset"></td>
+        </tr>
+
+        
+      </form>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Student form</h1>
+    <!--HTML forms with input-->
+    <form action="" method="get">
+        <table>
+            <tr>
+                <td><label for="name">Enter Name</label></td>
+                <td><input type="text" name="name"placeholder="Enter your name" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Enter mobile no</label></td>
+                <td><input type="number" name="phone"placeholder="Enter your Phone no"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Enter Email</label></td>
+               <td><input type="email" name="email"placeholder="Enter your email id"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Enter Age</label></td>
+               <td><input type="number" name="age"placeholder="Enter your age"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Enter Birth Date</label></td>
+               <td><input type="date" name="date"placeholder="Enter your Birth Date"></td>
+            </tr>
+            <tr>
+                <td><label for="media">Select File</label></td>
+               <td><input type="file" name="media"></td>
+            </tr>
+            <tr>
+                <td><label>Select Gender</label></td>
+                <td>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Select Skills</label></td>
+                <td>
+                    <label><input type="checkbox" name="skills" value="html"> HTML</label>
+                    <label><input type="checkbox" name="skills" value="css"> CSS</label>
+                    <label><input type="checkbox" name="skills" value="javascript"> JavaScript</label>
+                    <label><input type="checkbox" name="skills" value="java"> Java</label>
+                    <label><input type="checkbox" name="skills" value="python"> Python</label>
+                    <label><input type="checkbox" name="skills" value="php"> PHP</label>
+                    <label><input type="checkbox" name="skills" value="sql"> SQL</label>
+                    <label><input type="checkbox" name="skills" value="react"> React</label>
+                </td>
+            </tr>
+            <tr><td>Select Qualification</td>
+            <td><Select name="qualification">
+                <option value="Graduate">Graduate</option>
+                <option value="hsc">HSC</option>
+                <option value="ssc">SSC</option>
+            </Select></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                <textarea name="address" id=""></textarea></td>
+            </tr>
+            <tr><td><input type="submit"></td>
+            <td><input type="reset"></td>
+            </tr>
+
+        </table>
+        
+
+    </form>
+</body>
+</html>

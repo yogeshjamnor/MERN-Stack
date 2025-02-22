@@ -1,0 +1,19 @@
+form tag
+Input tag with diffrent types   
+
+Entities HTML
+&lt;----utf8 code for symbol
+&lt=less than
+&gt=Greater than
+&rup
+
+Sementic Elements
+ header
+ nav
+ section
+ article
+ footer
+ aside
+
+
+ Website creation task:
