@@ -1,0 +1,35 @@
+type of CSS
+inline: in line
+internal: in style tag 
+External: in css style sheet by link tag
+
+Designing
+diffrence between link and A tag
+connect resources to webpage-link
+connect path/redirect to other webpage-A
+
+priority of css
+inline 
+
+internal/external both equal depend on css the near closing near head tag
+Top-Bottom approch highest to below one
+
+Types of selector
+
+universal:*{color:white;} body{color:aqua;}
+group: th,td,.c1,ul{ color:pink;}
+
+class: .c1{color:red;}
+id: #i1{color:blue;}
+element: a{color:grey;}
+
+css box model
+border: boundry of element
+padding: space between border and element
+margin:space outside the border
+height, width: space of the element
+gap: space between 2 element
+left,right,top,bottom, gap
+
+margin collapsing: take highest margin among 2 element
+it will specify
