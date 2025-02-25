@@ -1,1 +1,1 @@
-![Demo Preview](https://github.com/yogeshjamnor/MERN-Stack/blob/main/day7/output/output.mp4)
+[🎥 Watch the Video](https://github.com/yogeshjamnor/MERN-Stack/releases/download/v1.0/output.mp4)
