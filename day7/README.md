@@ -1,1 +1,1 @@
-![Demo](day7/output/output.gif)
+![Demo](output/output.gif)
