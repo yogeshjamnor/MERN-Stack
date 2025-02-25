@@ -1,1 +1,1 @@
-![video](output/output.mp4)
+[video](output/output.mp4)
