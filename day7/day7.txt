@@ -1,0 +1,28 @@
+day 7 Css 
+
+css box model changes
+overflow: child element exceed the parent div or bloack
+
+restrict parent till below to wan't change furthe 
+max-height: limit that till change height according to child element after that child only grow
+min-width: parent element change width  until minimum width 
+
+px,%
+border style
+1.grove
+2.solid
+3.double
+4.ridge
+
+short method
+margin is negetive but padding is not
+
+colors in css
+
+body colors
+background-color:
+
+
+ task
+ background: img
+ div img with paragraph img is fixed or scollable

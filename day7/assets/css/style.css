@@ -1,0 +1,45 @@
+body{
+    background-image: url(../body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.c1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid;
+    max-width: 75%;
+    position: center;
+    min-height: 500px;
+    max-height: 700px;
+    padding:20px 30px 20px 30px;
+
+}
+#d1{
+    background: url(../kerela.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#d2{
+    background: url(../tajmahal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#d3{
+    background: url(../kailash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c1 h1{
+    background: linear-gradient(45deg,orange,white, lightgreen);
+    color: rgb(8, 8, 8);
+    width:15%;
+    padding-left:15px ;
+    padding-right: 15px;
+}
+.c1 p{
+    color: rgb(11, 11, 11);
+    background: rgba(249, 228, 228, 0.3);
+}

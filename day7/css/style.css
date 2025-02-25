@@ -1,0 +1,13 @@
+#d1{
+    border:2px solid;
+    
+    width: 400px;
+    max-height: 900px;
+    min-width: 200px;
+}
+#child{
+    border: 2px solid;
+    border-color: aqua;
+    height: 300px;
+    width: 80px;
+}
