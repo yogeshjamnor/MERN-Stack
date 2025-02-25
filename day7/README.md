@@ -1,1 +1,1 @@
-![Demo](output/output.gif)
+![Demo Preview](https://github.com/yogeshjamnor/MERN-Stack/blob/main/day7/output/demo.gif)
