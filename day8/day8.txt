@@ -1,0 +1,34 @@
+text Styling
+
+text color color:red;
+
+alignment of text
+text-align:
+text-decoration:
+text-transform: uppercase;
+ writing-mode: vertical-lr;
+
+ Font Properties
+font-weight: normal;
+font-family: cursive;
+font-style: initial;
+font-size: 32px; 
+font-style: italic;
+font-variant: small-caps;
+
+fallback font: if any case main font not appilied then other
+font used as backup fonts
+
+Downloaded font apply
+@Font
+
+CSS Unit
+Absolute
+- independent units
+    mm,cm,in,px,pt,pc ,,mm:milimeter
+relative
+- dependent unit
+    Rem,em,%,vh,vW ,,vh:viewport height 
+
+Root tag: HTML tag
+<!Doctype html> it is decleration

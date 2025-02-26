@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Font1;
+    /* Name for apply the font */
+    src: url(path.ttf);
+
+}
+p{
+    font-family: Font1;
+}
