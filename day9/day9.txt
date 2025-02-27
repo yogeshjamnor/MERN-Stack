@@ -1,0 +1,42 @@
+Css Postions
+static: fix position not change from their place default position 
+top, botton, left, right not affected
+
+relative: element change to its parent reallocate the position left right and its previous position is reserved
+
+fixed:it fixed position with repect to viewport, it doesn't scroll with content
+empty space occupy by other element
+
+absolute: it makes the element calculate with repect to parent which should be non static if parent is static it consider above it like 
+body->parent->child div it go previous until body which is non-static
+the other element occupy the empty space left by absolute space element
+
+layers in Css and Z-index
+layers:
+to arrange the elements in layers we use z-index
+float: direction of element left and right in one line 
+float:left, right
+clear:left, right both making design used for clear space 
+
+shadows in Css
+x-axis
+y-axis
+blue-radius
+box-shadow:12px 12px 5px 5px red;(x,y,blur-radius,spred,color)
+text-shadow(x,y,blur-radius,color)
+
+css oferflow:
+overflow:visible,scroll,auto
+
+visible:visible chilld overflow
+scroll:create scrollable containt
+auto:check the which side overflow is height or width then add scrollbar 
+
+Visibility
+display:
+none: hide the content or element remove from webpage &space is occupy by other
+block: show the element like block element (div elements) arrange one below another
+inline:Straight-line but height width ignored take size of contents
+inline-block:Straight but given height and width
+Visibility:hidden; hide but space reserved.
+Visibility:visible; show the hidden element.
