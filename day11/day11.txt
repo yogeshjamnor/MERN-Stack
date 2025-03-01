@@ -1,0 +1,45 @@
+Media query
+min-width:the style applied display size greater than minimum width
+max-width:style applied display size is less than the maxwidth
+@media screen and(min-width:768px)
+{
+
+}
+
+psudo classes:
+fist-child:      
+last-child:
+nth-child: odd even 3, 3n
+
+li:nth-child(even){}
+
+psudo element
+h1::first-letter{}
+p::first-line{background-color:yellow;}
+p::before{
+    content:hello;
+}
+p::after{
+
+}
+h1::selection{
+    background-color:green;
+}
+
+links:
+text-decoration:none;
+link:visit first
+visited: link has been visited or clicked
+hover:mouse pointer goes to element
+active:click on the link
+a:link{}
+a:visited{}
+a:hover{}
+a:active{}
+
+task: indian tourism
+left img, right head, info
+boxing
+media screen
+flexbox
+

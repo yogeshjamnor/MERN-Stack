@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <Style>
+        #parent{
+            display: flex;
+            /* height: 600px; */
+            /* flex-direction: row; */
+            gap:2px;
+            border:2px solid red;
+            /* flex-wrap: wrap; */
+            flex-flow: row no-wrap;
+            /* justify-content:space-evenly; */
+            /* align-items: center; */
+            /* align-content: center; */
+        }
+        .child{
+            height: 150px;
+            width:100px;
+            border:2px solid;
+        }
+        #d3{
+            background-color: pink;
+            order: 0;
+            /* flex-grow: 1; */
+            /* flex-shrink: 5; */
+            flex-basis:250px;
+        }
+        #d5{
+            /* flex-grow: 1; */
+            background-color: aqua;
+        }
+    </Style>
+</head>
+<body>
+    <div id="parent">
+        <div class="child">div1 </div>
+        <div class="child">Div2</div>
+        <div class="child"id="d3">Div3</div>
+        <div class="child">Div4</div>
+        <div class="child" id="d5">Div5</div>
+        <div class="child">Div6</div>
+        <!-- <div class="child">Div7</div>
+        <div class="child">Div8</div>
+        <div class="child">Div9</div>
+        <div class="child">Div10</div>
+    </div> -->
+</body>
+</html>

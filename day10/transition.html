@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        #d1{
+            width:200px;
+            height:200px;
+            background-color: aqua;
+            border: 2px solid;
+            position: relative;
+            top:300px;
+            left:100px;
+            transition-duration: 1000ms;
+            transition-property: width,background-color;
+            border-top-color:red;
+            transition-delay: 200ms;
+            transition-timing-function:ease-in-out;
+        }
+        #d1:hover{
+            width:700px;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+
+    </div>
+</body>
+</html>

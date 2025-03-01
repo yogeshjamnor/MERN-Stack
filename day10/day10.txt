@@ -1,0 +1,39 @@
+CSS transform
+
+transform property
+translate:used to move the element
+rotate:rotate element in given angle
+scale:zoom the item in scale propotional
+
+transform: rotate(45deg);
+transform: scale(2); (size*2)
+transform: translate(x-axis,y-axis) in px;
+transform-origin:xaxis yaxis;
+
+3D transform
+    perspective():distance between element and viewport
+    transform: perspective(200px) translate3d(0px, 0px, 100px); */
+    transform: perspective(300px) rotate3d(1,0,1,30deg);
+    transition-duration: 1000ms;
+    transition-property: width,background-color;
+    border-top-color:red;
+    transition-delay: 200ms;
+    transition-timing-function:ease-out;
+
+
+CSS FlexBox
+parent properties
+display:flex; flexible
+flex-direction: row -->, row-reverse <--, column, column-reverse 
+flex-wrap:wrap, no-wrap,wrap-reverse:if element not fit then next line
+flex-flow:conmbination of above two properties
+justify-content:flex-start, end,center,,space-between ,around,evenly
+align-items:Stretch, flex-start, flex-end, centerin case of row--> it manage left right
+align-content: in case of row it manage up and down
+
+child properties
+flex-grow:space occupy one(1-99)
+flex-shrink:
+flex-grow: 1;
+flex-shrink: 5;
+flex-basis:250px;
