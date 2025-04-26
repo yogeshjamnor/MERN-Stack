@@ -1,0 +1,7 @@
+ task: favorite item card with below link to redirect
+
+ img
+ heading
+ info
+ 2 a tags
+ 1-

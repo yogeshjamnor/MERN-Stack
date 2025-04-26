@@ -1,0 +1,46 @@
+1. Modal Related Classes
+Class Name	Purpose
+modal	Defines a Bootstrap modal.
+fade	Adds a fading animation effect when the modal opens and closes.
+modal-dialog	Defines the dialog container for the modal.
+modal-dialog-scrollable	Makes the modal body scrollable when content overflows.
+modal-content	Wraps all modal sections (header, body, footer) and provides styling.
+modal-header	Styles the header section of the modal.
+modal-title	Styles the modal title text.
+modal-body	Defines the main content area inside the modal.
+modal-footer	Defines the footer section of the modal (usually for buttons).
+2. Modal Attributes (Data Attributes)
+Attribute	Purpose
+data-toggle="modal"	Used on a button to trigger a modal when clicked.
+data-target="#demo"	Specifies which modal should be opened.
+data-dismiss="modal"	Closes the modal when the button is clicked.
+data-keyboard="false"	Prevents closing the modal using the "Esc" key.
+data-backdrop="static"	Prevents closing the modal when clicking outside of it.
+3. Bootstrap Utility Classes
+Class Name	Purpose
+bg-primary	Applies a blue background.
+text-center	Centers text horizontally.
+pb-3	Adds padding-bottom (spacing).
+btn	Base class for Bootstrap buttons.
+btn-primary	Styles a button with Bootstrap's primary theme color.
+btn-danger	Styles a button with a red color (usually for actions like closing).
+close	Styles the close (×) button in the modal header.
+img-thumbnail	Adds a border and shadow to the image for a neat look.
+ml-2	Adds left margin for spacing.
+
+<!--
+
+Collapse can be created by using a button and div.
+
+The button is just like the one that we use in the case of modal with data-toggle
+and data-target attribute.
+
+Instead of button, we can also use anchor tag with class same as button styling
+
+We can use data-toggle attribute in anchor tag for toggling the component.
+
+But for specifying the exact component, we do not need to use data-target in anchor tag.
+
+Instead, we can use the href attribute for specifying the exact element.
+
+-->

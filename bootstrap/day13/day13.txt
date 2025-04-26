@@ -1,0 +1,38 @@
+BootStrap css
+
+h:0/25/50/75/100
+padding(p-0)
+0:0px
+1:4px
+2:8px
+3:16px
+4:24px
+5:48px
+(0-5)
+pt:padding top
+pb:padding bottom 
+pl:padding left
+pr:padding right
+
+margin(m)
+(0-5)
+0:0px
+1:4px
+2:8px
+3:16px
+4:24px
+5:48px
+mt: top
+mb: bottom
+mr: margin-right
+ml: left
+
+typography
+
+Task
+same layout
+nav
+elite india logo ,about us, what we do ,why us, connect with us ,form contact us
+-background img fix
+-about us:text and img 
+what we do:
