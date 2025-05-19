@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": "₹2999",
+      "description": "High quality wireless headphones with noise cancellation.",
+      "image": "../src/assets/headphone.png"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": "₹3000",
+      "description": "Fitness tracking smart watch with multiple health sensors.",
+      "image": "../src/assets/watch.png"
+    },
+    {
+      "name": "Iphone",
+      "price": "₹78999",
+      "description": "Designed for Apple Intelligence. Discover the new iPhone 16e along with iPhone 16 Pro, iPhone 16, and iPhone 15",
+      "image": "../src/assets/iphone.png",
+      "id": 4
+    }
+  ]
+}
