@@ -64,7 +64,10 @@ function Project() {
                 <h5 className='card-title'>{project.name}</h5>
                 <p className='card-text'>{project.description}</p>
                 <div className='mt-auto d-flex justify-content-between'>
-                  <button className='btn btn-outline-primary btn-sm'>
+                  <button
+                    className='btn btn-outline-primary btn-sm'
+                    onClick={() => alert(project.name)}
+                  >
                     {project.btn1}
                   </button>
                   <button className='btn btn-primary btn-sm'>

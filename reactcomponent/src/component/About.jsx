@@ -4,6 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function About() {
   return (
     <div className='container mt-2'>
+      <img
+        src='yogesh img.jpg'
+        className='img-thumbnail'
+        style={{ height: '120px', width: '100px' }}
+      />
       <h2>About Me</h2>
       <p>
         Hello! I'm a passionate front-end developer with experience building
