@@ -5,8 +5,8 @@
 </ul>
 <ul type="none">
 <h3>class component</h3>
-<li>this.state</li>
-<li><p>state is object to store data </p></li>
+<li>this.state:
+<p>state is object to store data </p></li>
 <li>Constructor: inbuld method</li>
 <li>React.component</li>
 
