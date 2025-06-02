@@ -1,6 +1,6 @@
 <h1>React Componets </h1>
 <ul type="none">
-<li>Class Component Code</li>
+<li>Class Component</li>
 <li>functional Component</li>
 </ul>
 <hr>
@@ -8,6 +8,29 @@
 <h3>class component</h3>
 <li>this.state:
 state is object to store data </li>
+<li>Syntax</li>
+<li>
+<pre>
+import React from 'react';
+
+export default class App extends React.Component {
+constructor(props) {
+super(props);
+this.state = { id: 1, name: 'ABC' };
+}
+render() {
+return (
+<>
+<h1>
+hello {this.state.name}! your id is: {this.state.id}
+</h1>
+</>
+);
+}
+}
+
+</pre>
+</li>
 <hr>
 <li>Constructor: inbuld method</li>
 <hr>
