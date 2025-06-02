@@ -8,6 +8,6 @@
 <li>this.state:
 <p>state is object to store data </p></li>
 <li>Constructor: inbuld method</li>
-<li>React.component</li>
+<li>React.component : import from react to create class component</li>
 
 </ul>
