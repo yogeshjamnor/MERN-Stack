@@ -20,7 +20,9 @@ this.state = { id: 1, name: 'ABC' };
 }
 render() {
 return (hello {this.state.name}! your id is: {this.state.id}
-);}}
+);
+}
+}
 
 </pre>
 </li>
