@@ -13,3 +13,8 @@ state is object to store data </li>
 <hr>
 <li>React.component : import from react to create class component</li>
 </ul>
+<hr>
+<h2>methods:</h2>
+<ul type="none">
+<li>this.setState</li>
+</ul>
