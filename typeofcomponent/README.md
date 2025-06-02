@@ -20,10 +20,8 @@ this.state = { id: 1, name: 'ABC' };
 }
 render() {
 return (
-<>
+<><p>hello {this.state.name}! your id is: {this.state.id}
 
-<p>
-hello {this.state.name}! your id is: {this.state.id}
 </p>
 </>
 );
