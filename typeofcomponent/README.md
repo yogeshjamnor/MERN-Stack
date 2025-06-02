@@ -21,9 +21,10 @@ this.state = { id: 1, name: 'ABC' };
 render() {
 return (
 <>
-<h1>
+
+<p>
 hello {this.state.name}! your id is: {this.state.id}
-</h1>
+</p>
 </>
 );
 }
