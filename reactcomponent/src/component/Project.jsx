@@ -55,7 +55,8 @@ function Project() {
   ];
 
   return (
-    <div className='container mt-4'>
+    <div className='container mt-0'>
+      <h1>Projects</h1>
       <div className='row'>
         {project_data.map((project) => (
           <div className='col-md-4 mb-4' key={project.id}>
