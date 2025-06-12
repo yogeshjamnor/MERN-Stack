@@ -1,0 +1,6 @@
+.custom-active {
+  background-color: #dc3545 !important; /* Bootstrap 'danger' red */
+  color: white !important;
+  font-weight: bold;
+  border-radius: 5px;
+}
