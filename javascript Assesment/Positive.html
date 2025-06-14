@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addition of positive numbers in Array</title>
+  </head>
+  <body>
+    <div>
+      <ul type="none">
+        <li>
+          <h1>All Element in Array:</h1>
+          <h3 id="Allele"></h3>
+        </li>
+        <li>
+          <h2>Addition of positive numbers</h2>
+          <p id="odd"></p>
+        </li>
+      </ul>
+    </div>
+    <script>
+      let arr = [1, -4, 6, -2, 3];
+      document.getElementById('Allele').innerText = arr;
+      let sum = 0;
+      function odd() {
+        for (let i in arr) {
+          if (arr[i] > 0) {
+            sum += arr[i];
+          }
+        }
+      }
+      odd();
+      document.getElementById('odd').innerText = sum;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Largest no in Array</title>
+  </head>
+  <body>
+    <div>
+      <ul type="none">
+        <li>
+          <h1>All Element in Array:</h1>
+          <h3 id="Allele"></h3>
+        </li>
+        <li>
+          <h2>Sorted Array</h2>
+          <p id="sorted"></p>
+        </li>
+        <li>
+          <h1>Second Largest no in Array</h1>
+          <h2 id="secondlarge"></h2>
+        </li>
+      </ul>
+    </div>
+    <script>
+      let arr = [3, 10, 6, 1, 20, 15];
+      document.getElementById('Allele').innerText = arr;
+      let sorted_arry = arr.sort((a, b) => a - b);
+      document.getElementById('sorted').innerText = sorted_arry;
+      document.getElementById('secondlarge').innerHTML =
+        sorted_arry[arr.length - 2];
+    </script>
+  </body>
+</html>

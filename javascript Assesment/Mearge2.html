@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addition of positive numbers in Array</title>
+  </head>
+  <body>
+    <div>
+      <ul type="none">
+        <li>
+          <h1>All Element in Array:</h1>
+          <h3 id="Allele"></h3>
+        </li>
+        <li>
+          <h2>Merged Array After remove duplicates</h2>
+          <p id="merged"></p>
+        </li>
+      </ul>
+    </div>
+    <script>
+      let arr1 = [1, 2, 3];
+      let arr2 = [2, 3, 4, 5];
+
+      document.getElementById(
+        'Allele'
+      ).innerText = `arr_1: ${arr1}\narr_2: ${arr2}`;
+
+      let merged = [...arr1, ...arr2];
+      let unique = [...new Set(merged)];
+
+      document.getElementById('merged').innerText = unique;
+    </script>
+  </body>
+</html>

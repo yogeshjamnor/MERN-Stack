@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Palindrome</title>
+  </head>
+  <body>
+    <div>
+      <ul type="none">
+        <li>
+          <h1>Original Array:</h1>
+          <h3 id="Allele"></h3>
+        </li>
+        <li>
+          <h2>Result</h2>
+          <p id="result"></p>
+        </li>
+      </ul>
+    </div>
+    <script>
+      let arr = [1, 2, 3, 2, 1];
+      document.getElementById('Allele').innerText = arr;
+
+      function palindrome(arr) {
+        for (let i = 0; i < arr.length / 2; i++) {
+          if (arr[i] !== arr[arr.length - 1 - i]) {
+            return 'Not a Palindrome';
+          }
+        }
+        return 'Palindrome';
+      }
+
+      document.getElementById('result').innerText = palindrome(arr);
+    </script>
+  </body>
+</html>

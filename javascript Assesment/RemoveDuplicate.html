@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remove Duplicates in Array</title>
+  </head>
+  <body>
+    <div>
+      <ul type="none">
+        <li>
+          <h1>All Element in Array:</h1>
+          <h3 id="Allele"></h3>
+        </li>
+        <li>
+          <h2>After Remove Duplicates from Array</h2>
+          <p id="sorted"></p>
+        </li>
+      </ul>
+    </div>
+    <script>
+      let arr = [1, 2, 2, 3, 4, 4, 5];
+      document.getElementById('Allele').innerText = arr;
+
+      let unique = [];
+
+      for (let i = 0; i < arr.length; i++)
+       {
+        if (unique.indexOf(arr[i]) === -1) {
+          unique.push(arr[i]);
+        }
+      }
+
+      document.getElementById('sorted').innerText = unique;
+    </script>
+  </body>
+</html>

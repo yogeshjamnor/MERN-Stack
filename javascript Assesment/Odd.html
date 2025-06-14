@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odd and Even in Array in Array</title>
+  </head>
+  <body>
+    <div>
+      <ul type="none">
+        <li>
+          <h1>All Element in Array:</h1>
+          <h3 id="Allele"></h3>
+        </li>
+        <li>
+          <h2>Odd Counts</h2>
+          <p id="odd"></p>
+        </li>
+        <li>
+          <h1>Even Count</h1>
+          <h2 id="even"></h2>
+        </li>
+      </ul>
+    </div>
+    <script>
+      let arr = [1, 4, 7, 8, 10, 13];
+      document.getElementById('Allele').innerText = arr;
+      let odcount = 0;
+      let evcount = 0;
+      function odd() {
+        for (let i in arr) {
+          if (arr[i] % 2 == 0) {
+            evcount += 1;
+          } else {
+            odcount += 1;
+          }
+        }
+      }
+      odd();
+      document.getElementById('odd').innerText = odcount;
+      document.getElementById('even').innerHTML = evcount;
+    </script>
+  </body>
+</html>
