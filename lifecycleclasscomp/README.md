@@ -1,7 +1,7 @@
 class component
 
 <hr/>
-life cycles of class component
+life cycles of class component<br>
 /*   from dom tree     */
 <ul>
 
