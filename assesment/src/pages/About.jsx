@@ -17,7 +17,6 @@ export default function About() {
           />
         </div>
 
-        {/* About Info */}
         <div className='col-md-7'>
           <h2 className='mb-3'>About Me</h2>
           <p className='lead'>

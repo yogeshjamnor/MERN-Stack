@@ -5,11 +5,12 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export default function Contact() {
   return (
-    <section className='container py-5'>
+    <section className='container py-5' id='contact'>
+      {/* Navigation Buttons */}
       <div className='text-center mb-4'>
         <div className='d-flex justify-content-center gap-2 flex-wrap'>
           <NavLink to='/' className='btn btn-outline-primary'>
-            Go to Home
+            <i className='bi bi-house-door-fill me-1'></i> Home
           </NavLink>
           <a
             href='https://api.whatsapp.com/send?phone=9112279190'
@@ -17,36 +18,59 @@ export default function Contact() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            Contact on WhatsApp
+            <i className='bi bi-whatsapp me-1'></i> WhatsApp
+          </a>
+          <a
+            href='mailto:yogeshjamnor@gmail.com'
+            className='btn btn-danger'
+          >
+            <i className='bi bi-envelope-fill me-1'></i> Gmail
+          </a>
+          <a
+            href='https://linkedin.com/in/jamnor-yogesh-ramesh-86969124b'
+            className='btn btn-info text-white'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='bi bi-linkedin me-1'></i> LinkedIn
+          </a>
+          <a
+            href='https://github.com/yogeshjamnor'
+            className='btn btn-dark'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='bi bi-github me-1'></i> GitHub
           </a>
         </div>
       </div>
 
-      {/* Contact Form & Map */}
       <div className='row'>
         {/* Contact Form */}
         <div className='col-lg-6 mb-4'>
-          <div className='p-4 border rounded bg-light h-100'>
+          <div className='p-4 border rounded bg-light h-100 shadow-sm'>
             <form action='contact.php' method='post'>
-              <h5 className='mb-3'>Need Support!</h5>
-              <p>Contact us for a quote, help, or to join the team.</p>
+              <h5 className='mb-3'>📬 Need Support?</h5>
+              <p>Contact for queries, collaboration, or hiring!</p>
               <input
                 type='text'
                 name='name'
                 className='form-control mb-3'
                 placeholder='Your name'
+                required
               />
               <input
-                type='text'
+                type='email'
                 name='email'
                 className='form-control mb-3'
                 placeholder='Your email'
+                required
               />
               <input
                 type='text'
                 name='subject'
                 className='form-control mb-3'
-                placeholder='Your subject'
+                placeholder='Subject'
               />
               <textarea
                 name='description'
@@ -55,35 +79,35 @@ export default function Contact() {
                 placeholder='Your message'
               ></textarea>
               <button type='submit' className='btn btn-primary w-100'>
-                Send Message
+                <i className='bi bi-send-fill me-2'></i>Send Message
               </button>
             </form>
           </div>
         </div>
 
-        {/* Map */}
+        {/* Google Map */}
         <div className='col-lg-6 mb-4'>
-          <div className='h-100 border rounded overflow-hidden'>
+          <div className='h-100 border rounded overflow-hidden shadow-sm'>
             <iframe
-              src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27741.536361814535!2d73.85506576022799!3d18.59455542836018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b8634815e185%3A0x61b2a188e0c07e9d!2sASM&#39;s%20IBMR%20Pune%20-%20Institute%20of%20Business%20Management%20and%20Research!5e0!3m2!1sen!2sin!4v1699760286301!5m2!1sen!2sin'
+              src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30221.187895909734!2d73.7590322806046!3d18.769231901014592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b424d1182be3%3A0x7d482170f1e4fddf!2sSawardari%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1751032163181!5m2!1sen!2sin'
               width='100%'
               height='100%'
               style={{ border: 0, minHeight: '350px' }}
               allowFullScreen=''
               loading='lazy'
               referrerPolicy='no-referrer-when-downgrade'
-              title='Google Map'
+              title='Sawardari, Pune Location'
             ></iframe>
           </div>
         </div>
       </div>
 
-      {/* Contact Methods */}
+      {/* Personal Contact Info */}
       <div className='row text-center mt-5'>
         <div className='col-md-4 mb-4'>
           <i className='bi bi-geo-alt-fill display-5 text-primary'></i>
           <h5 className='mt-2'>Location</h5>
-          <p>Sawardari, Chakan-II </p>
+          <p>Sawardari, Chakan-II, Pune</p>
         </div>
         <div className='col-md-4 mb-4'>
           <i className='bi bi-envelope-fill display-5 text-danger'></i>
@@ -91,11 +115,12 @@ export default function Contact() {
           <p>yogeshjamnor@gmail.com</p>
         </div>
         <div className='col-md-4 mb-4'>
-          <i className='bi bi-telephone-fill display-5 text-success'></i>
+          <i className='bi bi-phone-fill display-5 text-success'></i>
           <h5 className='mt-2'>Phone</h5>
-          <p>9112279190</p>
+          <p>+91 9112279190</p>
         </div>
       </div>
     </section>
   );
 }
+z

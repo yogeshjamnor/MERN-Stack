@@ -37,12 +37,12 @@ export default function Home() {
   const [leaveRequests] = useState([
     {
       name: 'Neha Patil',
-      text: '2 days of sick leave (12–13 June)',
+      text: '2 days of sick leave (12-13 June)',
       status: 'Pending',
     },
     {
       name: 'Ravi Kumar',
-      text: '5 days vacation (18–22 June)',
+      text: '5 days vacation (18-22 June)',
       status: 'Approved',
     },
   ]);

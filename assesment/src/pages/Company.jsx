@@ -5,7 +5,6 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 export default function Company() {
   return (
     <section className='container py-5'>
-      {/* Header / Hero Section */}
       <div className='text-center mb-5'>
         <h1 className='display-5 fw-bold'>Welcome to Rego Digital</h1>
         <p className='lead text-muted'>
@@ -95,7 +94,6 @@ export default function Company() {
         </div>
       </div>
 
-      {/* Call to Action */}
       <div className='text-center bg-primary text-white p-4 rounded'>
         <h4 className='mb-3'>Let's Build Something Great Together</h4>
         <a href='/contact' className='btn btn-outline-light'>
