@@ -38,6 +38,11 @@ function Navbar() {
                 To Do List
               </NavLink>
             </li>
+            <li className='nav-item'>
+              <NavLink to='/counter' className='nav-link'>
+                Time Counter
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </div>

@@ -9,6 +9,7 @@ import Login from './pages/Login';
 import Users from './pages/Users';
 import UserDetails from './pages/UserDetails';
 import UseReducer from './pages/UseReducer';
+import CounterWithTimer from './pages/CounterWithTimer';
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
         <Route path='/admin' element={<Admin />} />
         <Route path='/users' element={<Users />} />
         <Route path='/todo' element={<UseReducer />} />
+        <Route path='/counter' element={<CounterWithTimer />} />
         <Route path='/users/:id' element={<UserDetails />} />
         <Route
           path='*'
