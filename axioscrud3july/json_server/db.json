@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "9876543210",
+      "city": "Mumbai",
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "phone": "9123456780",
+      "city": "Delhi",
+      "role": "User"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "phone": "9988776655",
+      "city": "Pune",
+      "role": "Moderator"
+    },
+    {
+      "id": 4,
+      "name": "Diana Prince",
+      "email": "diana.prince@example.com",
+      "phone": "9012345678",
+      "city": "Chennai",
+      "role": "Admin"
+    },
+    {
+      "id": 5,
+      "name": "Ethan Hunt",
+      "email": "ethan.hunt@example.com",
+      "phone": "9345678901",
+      "city": "Bangalore",
+      "role": "User"
+    },
+    {
+      "id": 6,
+      "name": "Fiona Gallagher",
+      "email": "fiona.g@example.com",
+      "phone": "9001122334",
+      "city": "Hyderabad",
+      "role": "Editor"
+    },
+    {
+      "id": 7,
+      "name": "George Thomas",
+      "email": "george.t@example.com",
+      "phone": "9876501234",
+      "city": "Ahmedabad",
+      "role": "User"
+    },
+    {
+      "id": 8,
+      "name": "Hannah Wright",
+      "email": "hannah.w@example.com",
+      "phone": "9911223344",
+      "city": "Kolkata",
+      "role": "Manager"
+    },
+    {
+      "id": 9,
+      "name": "Ian Newton",
+      "email": "ian.n@example.com",
+      "phone": "9334455667",
+      "city": "Jaipur",
+      "role": "Admin"
+    },
+    {
+      "id": 10,
+      "name": "Jane Foster",
+      "email": "jane.foster@example.com",
+      "phone": "9556677889",
+      "city": "Surat",
+      "role": "Viewer"
+    },
+    {
+      "id": "11",
+      "name": "Yogesh Jamnor",
+      "email": "yogeshjamnor@gmail.com",
+      "phone": "9112279190",
+      "city": "Pune",
+      "role": "Admin"
+    }
+  ]
+}
