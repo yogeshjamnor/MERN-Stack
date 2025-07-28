@@ -24,7 +24,7 @@ export default function LocalRegister() {
       return;
     }
 
-    const id = Date.now(); // ✅ Use timestamp as manual ID
+    const id = Date.now(); 
 
     const formattedData = {
       id: id,
