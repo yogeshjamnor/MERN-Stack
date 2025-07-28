@@ -53,6 +53,7 @@ export default function LocalRegister() {
             type='text'
             name='name'
             className='form-control'
+            minLength={10}
             value={data.name}
             onChange={handleChange}
             required
